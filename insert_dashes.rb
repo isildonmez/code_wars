@@ -26,6 +26,7 @@ def insert_dash_2(num)
   num.to_s.split(/(?<=[13579])(?=[13579])/).join('-')
 end
 
+# For more information please check this link: https://stackoverflow.com/questions/10804732/what-is-the-difference-between-and-in-regex
 # 2.4.1 :024 >   "1,2,3".split(/,/)
 #  => ["1", "2", "3"]
 # 2.4.1 :025 > "1,2,3".split(//)
